@@ -19,8 +19,8 @@
 #define INTERRUPT_PIN5 A3 // Port C, also can be given as "17"
 #define INTERRUPT_PIN6 A4
 
-uint8_t pins[6]={ INTERRUPT_PIN1, INTERRUPT_PIN2, INTERRUPT_PIN3, INTERRUPT_PIN4, INTERRUPT_PIN5, INTERRUPT_PIN6 };
 uint8_t ports[6]={ 0, 0, 0, 0, 0, 0 };
+uint8_t pins[6]={ INTERRUPT_PIN1, INTERRUPT_PIN2, INTERRUPT_PIN3, INTERRUPT_PIN4, INTERRUPT_PIN5, INTERRUPT_PIN6 };
 
 uint8_t latest_interrupted_pin;
 uint8_t interrupt_count[20]={0}; // 20 possible arduino pins
